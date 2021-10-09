@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.under-content {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+
+.modal-dropback {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-window {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 13px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.modal-window .modal-top {
+    display: flex;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+
+.modal-window .modal-top p {
+    flex-grow: 1;
+    margin-left: 15px;
+    font-weight: 900;
+    color: #912FFC
+}
+
+.modal-window .modal-top span {
+    opacity: .7;
+}
+
+.modal-window .modal-top span:hover {
+    cursor: pointer;
+    
+}
+
+
+.model-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.model-content p {
+    font-weight: 500;
+    margin: 15px;
+}
+
+.accept, .decline {
+    padding: 8px 18px;
+    border-radius: 35px;
+    background: none;
+    width: 110px;
+    margin: 25px;
+    border-color: #912FFC;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid #912FFC;
+    transition: .7s;
+    font-weight: 700;
+}
+
+.accept {
+    color: #912FFC
+}
+
+.accept:hover {
+    color: white;
+    background:#912FFC ;
+
+}
+
+.decline {
+    color: white;
+    background: #912FFC;
+}
+
+.decline:hover {
+    background: white;
+    color: #912FFC;
+}
+
+.accept:hover, .decline:hover {
+    cursor: pointer;
+}
+

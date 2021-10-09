@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Just a form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-table">
+            <form action="#">
+                <label for="login">
+                    <span class="material-icons">
+                        account_circle
+                    </span>
+                    <input class="text-fields" type="text" name="login" id="login" placeholder="login..." required>
+                </label>
+                <label for="pass">
+                    <span class="material-icons">
+                        vpn_key
+                    </span>
+                    <input class="text-fields" type="password" name="password" id="pass" placeholder="password..." required>
+                </label>
+                <label for="email">
+                    <span class="material-icons">
+                        email
+                    </span>
+                    <input class="text-fields" type="email" name="email" id="pemail" placeholder="email...">
+                </label>
+                <div class="agreed">
+                    <label for="agreed" class='checkbx-text'>
+                        <input class='checkbx' type="checkbox" name="agreed" id="agreed" required>
+                        <h6>I agree all statements in <span><a href="#">Terms & Conditions</a></span></h6>
+                    </label>
+                </div>
+                <button type='submit' id='sub'>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

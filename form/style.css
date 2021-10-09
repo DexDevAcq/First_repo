@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #e67a22;
+}
+.wrapper {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 660px;
+    width: 100%;
+    background: #eeeeee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 100px;
+    min-width: 200px;
+
+}
+
+
+.form-table {
+    padding: 20px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-fields {
+    margin: 13px;
+    height: 35px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    min-width: 100px;
+    text-transform: uppercase;
+    
+}
+
+.agreed {
+    margin-right: 50px;
+}
+
+.checkbx {
+    margin: 5px;
+}
+
+span {
+    color: #e67a22;
+    cursor: pointer;
+}
+
+.material-icons {
+    color: black;
+    opacity: 0.4;
+}
+
+.form-table form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+button {
+    padding: 10px 25px;
+    width: 155px;
+    border-radius: 300px;
+    border: 2px solid  #e67a22;
+    margin: 15px;
+    background:#e67a22 ;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 580;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: none;
+    color: #e67a22;
+}
+
